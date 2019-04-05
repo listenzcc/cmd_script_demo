@@ -8,6 +8,7 @@ echo %var%
 @echo off
 echo ===== %0% starts with echo off =========
 echo ===== at %time%
+time /t
 :: echo on is clean, is recommend 
 set var="1"
 echo %var%
